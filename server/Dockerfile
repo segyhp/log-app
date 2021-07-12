@@ -10,6 +10,8 @@ RUN apt update && apt install -y \
     iputils-ping \
     && rm -rf /var/lib/apt/lists/*
 
+RUN pip install python-dotenv
+
 RUN pip install -r requirements.txt
 
 COPY . .
