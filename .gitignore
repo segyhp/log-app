@@ -56,3 +56,10 @@ dev.db
 
 # Vagrant machines
 .vagrant/**
+
+
+#client
+client/node_modules/
+client/package-lock.json/
+
+#server
